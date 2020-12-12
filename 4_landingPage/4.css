@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+/* custom bootstrap start*/
+
+nav.navbar.navbar-default {
+    border: none;
+    margin-bottom: 0px;
+}
+/* custom bootstrap end */
+.header-section {
+    padding-top: 238px;
+    color: white;
+    background: url(./images/intro-bg.jpg);
+    padding-bottom: 280px;
+}
+
+.header-section h1 {
+    font-size: 54px;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.45);
+}
+.header-section h3 {
+    font-size: 22px;
+}
+
+.mainContent-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mainContent-section hr.hrHorizontal {
+    margin-bottom: 2px;
+    border: 2px solid #e7e7e7;
+    width: 48%;
+}
+
+.mainContent-section h3 {
+    font-size: 29px;
+    font-weight: 600;
+    padding-top: 36px;
+    padding-bottom: 23px;
+}
+
+.mainContent-section p {
+    font-size: 17px;
+}
+
+.mainContent-section.middleContent-section {
+    border: none;
+    background: white;
+}
+.connectBS-section {
+    background: url(./images/banner-bg.jpg);
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 108px;
+}
+
+.connectBS-section h2 {font-weight: 800;font-size: 40px;text-shadow: 2px 0 0 #4e4e4e;line-height: 1px;}
+.footer-section li {
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-section {
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-weight: bold;
+    color: #615b5b;
+}
